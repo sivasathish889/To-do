@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="to-do.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="inp" placeholder="Enter Your Task">
+    <button onclick="change()">Add</button>
+    </div>
+    <div class="list-container">
+        <ul id="uList">
+            <li>Welcome
+                <button onclick="remove(event)" id="clear">Delete</button>
+                <hr>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Script file -->
+    <script src="./to-do.js"></script>
+</body>
+</html>
